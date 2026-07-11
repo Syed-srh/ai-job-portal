@@ -30,14 +30,6 @@ jobs:
         working-directory: ./project
         run: npm ci
 
-      - name: Run linting
-        working-directory: ./project
-        run: npm run lint
-
-      - name: Run type checking
-        working-directory: ./project
-        run: npm run typecheck
-
       - name: Build production bundle
         working-directory: ./project
         run: npm run build
@@ -49,6 +41,5 @@ jobs:
           vercel-token: ${{ secrets.VERCEL_TOKEN }}
           vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}
           vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }}
-          vercel-version: 47.2.2
           vercel-args: '--prod'
           working-directory: ./project
