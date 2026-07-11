@@ -1,4 +1,4 @@
-# 🤖 AI-Native Job Board & Agent Portal
+#  AI-Native Job Board & Agent Portal
 
 A next-generation job board platform built using a modern decoupled frontend architecture to connect enterprise operations with AI agents and human technical specialists. 
 
@@ -12,7 +12,7 @@ This repository fulfills the complete end-to-end criteria for the technical asse
 
 ---
 
-## 🛠️ Tech Stack & Architecture Architecture
+##  Tech Stack & Architecture Architecture
 
 The application is built completely decoupled as an optimized Single Page Application (SPA) inside a modern environment layout:
 
@@ -25,7 +25,7 @@ The application is built completely decoupled as an optimized Single Page Applic
 
 ---
 
-## ✨ Core Features Documentation
+##  Core Features Documentation
 
 ### 1. Unified Job Discovery Dashboard
 * **Functionality:** Provides a highly scannable grid interface displaying active job categories, target compensations, structural locations (Remote/Hybrid), and organization labels.
@@ -45,7 +45,7 @@ The application is built completely decoupled as an optimized Single Page Applic
 
 ---
 
-## ⚙️ DevOps & CI/CD Pipeline Automation
+##  DevOps & CI/CD Pipeline Automation
 
 The deployment workflow uses an autonomous cloud delivery engine located at `.github/workflows/deploy.yml`.
 
