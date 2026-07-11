@@ -7,8 +7,8 @@ This repository fulfills the complete end-to-end criteria for the technical asse
 ---
 
 ## 🚀 Live Links & Artifacts
-* **Production Deployment (Vercel):** [PASTE YOUR LIVE VERCEL APPLICATION LINK HERE]
-* **Source Code Repository (GitHub):** [PASTE YOUR GITHUB REPOSITORY LINK HERE]
+* **Production Deployment (Vercel):** https://ai-job-portal-nu.vercel.app/
+* **Source Code Repository (GitHub):** https://github.com/Syed-srh/ai-job-portal
 
 ---
 
