@@ -24,17 +24,22 @@ jobs:
         with:
           node-version: 20
           cache: npm
+          cache-dependency-path: './project/package-lock.json'
 
       - name: Install dependencies
+        working-directory: ./project
         run: npm ci
 
       - name: Run linting
+        working-directory: ./project
         run: npm run lint
 
       - name: Run type checking
+        working-directory: ./project
         run: npm run typecheck
 
       - name: Build production bundle
+        working-directory: ./project
         run: npm run build
 
       - name: Deploy to Vercel
@@ -45,3 +50,4 @@ jobs:
           vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}
           vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }}
           vercel-args: '--prod'
+          working-directory: ./project
